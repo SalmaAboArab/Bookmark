@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="head container pt-4 pb-5 ps-3 mt-5">
+            <h3>Bookmarker</h3>
+        </div>
+        <div class="container">
+            <div class="data container-fluid pt-5 mt-3 mb-4 text-center">
+                <h3 class="pb-4 fw-bold">Bookmark your favorite sites</h3>
+                <label for="" class="fw-bold pb-3">Site Name</label><br>
+                <input id="siteName" placeholder="Bookmark Name" type="text" class="mb-3 p-2"><br>
+                <label for="" class="fw-bold pb-3">Site URL</label><br>
+                <input id="siteUrl" placeholder="website URL" type="text" class="mb-3 p-2"><br>
+                <button id="submit" class="mb-5 pt-2 pb-2 ps-3 pe-3 btn btn-primary " onclick="addSite()">Submit</button>
+                <button id="update" class="mb-5 pt-2 pb-2 ps-3 pe-3 btn btn-warning d-none" onclick="savechange()">Savechanges</button>
+            </div>
+            
+        </div>
+        <div class="container tblcont pb-3">
+            <div class="w-75 mx-auto py-3">
+                <input oninput="search(this.value)"  type="text" class="form-control" placeholder="search ..." id="searchInput">
+              </div>
+                <table class="pe-5">
+                    <tbody id="tableBody">
+                    </tbody>
+                </table>
+        </div>
+        <div class="par row col-3 position-relative">
+            <p class="fw-bold">© 2019 Bookmarker Inc.</p>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,65 @@
+* {
+    font-family: arial;
+}
+.head h3{
+    font-size: 2rem;
+    color: #AAA;
+    font-weight: bold;
+}
+.head , .tblcont{
+    border-bottom: 1px solid #999;
+}
+.data{
+    background-color: #EEE;
+}
+.data h3{
+    font-size: 1.6rem;
+}
+input {
+    border-radius: 5px;
+    border: 1px solid #DDD;
+    padding: 5px;
+    width: 80%;
+    height: 2em;
+}
+
+
+.data button,label,input{
+    font-size: 17px;
+}
+.btn-primary:hover{
+    background-color: #093e78;
+    box-shadow: 2px 3px 5px 1px gray;
+}
+.tbl{
+    background: linear-gradient(#EEE,#fff);
+}
+.btn{
+    transition: 0s;
+}
+.btn:hover{
+    box-shadow: 2px 3px 5px 1px gray;
+}
+.btn-primary{
+    background-color: #1167c4;
+}
+.btn-danger{
+    background-color: rgb(151, 18, 18);
+}
+.btn-danger:hover{
+    background-color: rgb(112, 23, 23);
+}
+.btn-primary,.btn-danger,.btn-warning{
+    left: 25%;
+}
+table{
+    width: 98.5%;
+    position: relative;
+    left: 0.9%;
+}
+
+.par{
+    top: 4%;
+    left: 13%;
+    color: #AAAAAA;
+}
